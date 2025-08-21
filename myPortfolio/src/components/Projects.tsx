@@ -1,4 +1,5 @@
 import React from 'react'
+//check if everything is added
 
 const Projects = () => {
   return (
