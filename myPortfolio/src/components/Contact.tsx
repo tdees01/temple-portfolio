@@ -40,14 +40,14 @@ const Contact = () => {
         </div>
         <div className="flex justify-center mt-8">
             <p className="text-2xl">Feel free to reach out via email or connect with me on </p>
-            <p onClick={handleClick} className="text-blue-500 hover:underline ml-2 text-2xl">LinkedIn</p>
+            <p onClick={handleClick} className="text-black underline underline-offset-2 ml-2 text-2xl">LinkedIn</p>
         </div>
         <div className="mt-16">
             <form onSubmit={onSubmit} className="flex flex-col items-center mt-8 gap-4">
                 <input type="text" placeholder="Your Name" className="border-2 border-gray-300 rounded-xl p-3 mb-4 w-1/3 bg-white shadow-xl/20 opacity-75" name="name" required />
                 <input type="email" placeholder="Your Email" className="border-2 border-gray-300 rounded-xl p-3 mb-4 w-1/3 bg-white shadow-xl/20 opacity-75" name="email" required/>
                 <textarea placeholder="Your Message" name="message" className="border-2 border-gray-300 rounded-xl p-3 mb-4 w-1/3 h-32 bg-white shadow-xl/20 opacity-75" required></textarea>
-                <button type="submit" className="bg-white text-black rounded-xl p-2 w-1/3 hover:bg-fuschia-600 shadow-xl/20 opacity-75">Send Message</button>
+                <button type="submit" className="bg-white text-black rounded-xl p-2 w-1/3 hover:bg-fuschia-600 shadow-xl/20 opacity-75 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105">Send Message</button>
             </form>
         </div>
     </div>
