@@ -38,7 +38,7 @@ const Contact = () => {
         <div className="flex justify-center">
             <h2 className="text-6xl font-semibold drop-shadow-lg">Contact</h2>
         </div>
-        <div className="flex justify-center mt-8">
+        <div className="flex justify-center mt-16">
             <p className="text-2xl">Feel free to reach out via email or connect with me on </p>
             <p onClick={handleClick} className="text-black underline underline-offset-2 ml-2 text-2xl">LinkedIn</p>
         </div>
