@@ -6,6 +6,7 @@ const Contact = () => {
         window.open('https://www.linkedin.com/in/temple-dees/'), '_blank'
     }
     const [result, setResult] = React.useState("");
+    console.log(result);
   const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     setResult("Sending....");
