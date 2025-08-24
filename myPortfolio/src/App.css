@@ -3,7 +3,7 @@
 .gradient-background {
   background: linear-gradient(288deg, #b68eea,#a849c5,#d02abe, #257ec4, #3bbec2);
   background-size: 300% 300%;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   animation: gradient-animation 25s ease infinite;
 }
@@ -40,8 +40,10 @@
   margin-left: 150px;      /* Aligns with the left edge */
   margin-right: auto;
   letter-spacing: .0.0555em; /* Adjust as needed */
+  width: max-content;
+  max-width: 0;
   animation: 
-    typing 3.5s steps(80, end);
+    typing 2.5s steps(80, end) forwards;
     /* blink-caret 0.75s step-end infinite; */
   font-size: 4rem;  /* Ensures cursor matches text height */
   line-height: 1.1;      /* Ensures cursor matches text height */
@@ -68,8 +70,8 @@
 
 /* The typing effect */
 @keyframes typing {
-  from { width: 0% }
-  to { width: 100% }
+  from { max-width: 0 }
+  to { max-width: 20ch }
 }
 
 /* The typewriter cursor effect */
