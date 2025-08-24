@@ -1,6 +1,3 @@
-import React from 'react'
-//check if everything is added
-
 const Projects = () => {
   return (
     <div className="h-screen">
