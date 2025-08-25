@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function ResumeButton() {
     function handleClick() {
         window.open('https://drive.google.com/file/d/1OsUXC9BsDsZT67ML5w86BGSadwwadyae/view?usp=sharing'), '_blank'

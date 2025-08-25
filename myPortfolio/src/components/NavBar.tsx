@@ -1,5 +1,3 @@
-import React from 'react'
-
 const NavBar = () => {
   return (
     <div className="flex justify-center top-8 left-1/2 -translate-x-1/2 pt-8 fixed z-50">

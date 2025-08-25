@@ -1,6 +1,3 @@
-import React from 'react'
-//check if everything is added
-
 const Projects = () => {
   return (
     <div className="h-screen">
@@ -10,7 +7,7 @@ const Projects = () => {
         <div className="mt-8 flex flex-row items-center gap-16 mt-32 justify-center ml-6 mr-6 ">
             <div className="border-solid pl-[20px] pr-[20px] pb-[15px] pt-[15px] border-2 bg-white shadow-xl/20 drop-shadow-xl rounded-3xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-115 max-h-[600px] max-w-[400px]">
                 <div>
-                    <img src="src/assets/plantgpt-inlab.jpg" className="rounded-lg w-fit"></img>
+                    <img src="/assets/plantgpt-inlab.jpg" className="rounded-lg w-fit"></img>
                 </div>
                 <div>
                     <h3 className="text-4xl">PlantGPT</h3>
@@ -39,7 +36,7 @@ const Projects = () => {
             </div>
             <div className="border-solid pl-[20px] pr-[20px] pb-[15px] pt-[15px] border-2 bg-white shadow-xl/20 drop-shadow-xl rounded-3xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-115 max-h-[600px] max-w-[400px]">
                 <div className="flex justify-center">
-                    <img src="src/assets/quizzeroonihome.png" className="rounded-lg max-h-64"></img>
+                    <img src="/assets/quizzeroonihome.png" className="rounded-lg max-h-64"></img>
                 </div>
                 <div>
                     <h3 className="text-4xl">Quizzerooni</h3>
@@ -69,7 +66,7 @@ diverse answer choices.</p>
             </div>
             <div className="border-solid pl-[20px] pr-[20px] pb-[15px] pt-[15px] border-2 bg-white shadow-xl/20 drop-shadow-xl rounded-3xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-115 max-h-[578px] max-w-[400px]">
                 <div>
-                    <img src="src/assets/raspberry_p_i_1.jpg" className="rounded-lg grid content-center max-h-64"></img>
+                    <img src="/assets/raspberry_p_i_1.jpg" className="rounded-lg grid content-center max-h-64"></img>
                 </div>
                 <div>
                     <h3 className="text-4xl">Raspberry P.I.</h3>
