@@ -37,7 +37,7 @@ const Contact = () => {
   return (
     <div className="h-screen mt-32">
         <div className="flex justify-center">
-            <h2 className="text-6xl font-semibold drop-shadow-lg">Contact</h2>
+            <h2 className="text-6xl font-semibold drop-shadow-lg mt-4">Contact</h2>
         </div>
         <div className="flex justify-center mt-16">
             <p className="text-2xl">Feel free to reach out via email or connect with me on </p>
