@@ -3,6 +3,7 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import ResumeButton from './components/ResumeButton'
+import Footer from './components/Footer'
 
 
 const App = () => {
@@ -27,6 +28,9 @@ const App = () => {
           <section id="contact" className="scroll-mt-32 scroll-smooth">
             <Contact />
           </section>
+        </div>
+        <div>
+          <Footer />
         </div>
         </div>
     </div>
