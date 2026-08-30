@@ -5,7 +5,7 @@ const Footer = () => {
             <div>
                 <h2 className="text-stone-50 text-2xl ml-4 pl-6 pt-8">Temple Dees</h2>
                 {/* <div className="ml-10 h-0.25 w-175 bg-white mt-2"></div> */}
-                <h2 className="text-stone-50 text-md ml-4 pl-6 pt-2 w-140">A junior Computer Science major, Interactive Media minor, passionate about the intersection of technology and design.</h2>
+                <h2 className="text-stone-50 text-md ml-4 pl-6 pt-2 w-140">A senior Computer Science major, Interactive Media minor, passionate about the intersection of technology and design.</h2>
             </div>
             <div>
                 <h4 className="text-2xl text-stone-50 pt-8 text-end mr-4 pr-6" >Connect with me</h4>
