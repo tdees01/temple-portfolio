@@ -1,4 +1,8 @@
+import { useState } from "react";
+
 const Projects = () => {
+  const [showSensorModule, setShowSensorModule] = useState(false);
+
   return (
     <div className="h-max ml-10">
       <div className="flex justify-center">
@@ -6,11 +10,76 @@ const Projects = () => {
       </div>
       <div className="mt-8 flex flex-row grid grid-cols-3 items-center gap-12 mt-32 justify-center ml-6 mr-6 ">
         <div className="border-solid pl-[20px] pr-[20px] pb-[15px] pt-[15px] border-2 bg-white shadow-xl/20 drop-shadow-xl rounded-3xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-115 h-[645px] max-w-[400px] flex flex-col justify-between">
-          <div>
+          <div className="relative">
             <img
-              src="/assets/plantgpt-inlab.jpg"
-              className="rounded-lg w-fit"
+              src={
+                showSensorModule
+                  ? "/assets/sensormodule.jpg"
+                  : "/assets/plantgpt-inlab.jpg"
+              }
+              className="rounded-lg w-full h-64 object-contain"
+              alt={
+                showSensorModule
+                  ? "PlantGPT sensor module"
+                  : "PlantGPT in-lab setup"
+              }
             ></img>
+            <button
+              type="button"
+              aria-label="Show PlantGPT in-lab setup image"
+              onClick={() => setShowSensorModule(false)}
+              className="absolute left-2 top-1/2 -translate-y-1/2 text-black"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="2"
+                stroke="currentColor"
+                className="size-7 drop-shadow-lg"
+              >
+                <path
+                  stroke="white"
+                  strokeWidth="4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="m15 5-7 7 7 7"
+                />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="m15 5-7 7 7 7"
+                />
+              </svg>
+            </button>
+            <button
+              type="button"
+              aria-label="Show PlantGPT sensor module image"
+              onClick={() => setShowSensorModule(true)}
+              className="absolute right-2 top-1/2 -translate-y-1/2 text-black"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="2"
+                stroke="currentColor"
+                className="size-7 drop-shadow-lg"
+              >
+                <path
+                  stroke="white"
+                  strokeWidth="4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="m9 5 7 7-7 7"
+                />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="m9 5 7 7-7 7"
+                />
+              </svg>
+            </button>
           </div>
           <div className="min-h-[140px]">
             <h3 className="text-4xl">PlantGPT</h3>
