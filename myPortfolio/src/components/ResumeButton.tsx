@@ -1,6 +1,6 @@
 export default function ResumeButton() {
     function handleClick() {
-        window.open('https://drive.google.com/file/d/1AZm5gSZJdckHBq65uTAZU2XI8oHMy1Zu/view?usp=sharing'), '_blank'
+        window.open('https://drive.google.com/file/d/1hrP6p7-hYsArq2Ptu41xK-IchjJrU3cF/view?usp=sharing'), '_blank'
     }
     return (
         <div className={"fixed top-6 right-4 z-50"}>
